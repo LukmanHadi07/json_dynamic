@@ -1,0 +1,22 @@
+{
+    "type": "Scaffold",
+    "args": {
+        "appBar": {
+            "type": "app_Bar",
+            "args": {
+                "title": {
+                    "type": "text",
+                    "args": {
+                        "text": "Dynamic Widgets"
+                    }
+                }
+            }
+        },
+        "body": {
+            "type": "center",
+            "child": {
+               "type" : "circular_progress_indicator"
+            }
+        }
+    }
+}
